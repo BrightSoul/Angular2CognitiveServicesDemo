@@ -1,0 +1,75 @@
+/* Master Styles */
+h1 {
+  color: #369;  
+  font-size: 180%;
+  font-weight: lighter;
+  text-align: center;
+}
+h2 {
+  font-weight: lighter;
+}
+body { 
+  margin: 2em; 
+}
+body, input[text], button { 
+  color: #888; 
+}
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+button {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #aaa; 
+  cursor: auto;
+}
+
+/* Navigation link styles */
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #607D8B;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+nav a.router-link-active {
+  color: #039be5;
+}
+#pictureUrl {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    font-weight: lighter;
+    max-width: 600px;
+    width: 50%;
+}
+#pictureButton {
+  font-size:20px;
+  padding:11px;
+}
+.colorbox {display: inline-block; width: 20px; height:20px;}
+
+/* everywhere else */
+* { 
+  font-family: 'Segoe UI', Calibri, Tahoma, Geneva, Verdana, sans-serif;  
+}
